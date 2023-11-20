@@ -1,0 +1,334 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;700&family=Roboto&family=Schoolbell&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+
+
+header nav{
+    background-color: #428E5F;
+    
+}
+
+
+header nav{
+    display: flex;
+    justify-content: space-around;
+    color: rgb(255, 255, 255);
+    /* margin: 20px 0px; */
+    align-items: center;
+    background-color:428E5F ;
+
+
+}
+
+.nav-list  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 20px;
+    gap:30px ;
+}
+
+.nav-list{
+    padding: 0px 30px;
+
+}
+
+.nav-btn button {
+    padding: 0px 10px;
+    border: none;
+    width: 128px;
+    height: 49px;
+    background-color:#428E5F ;
+    color: white;
+    font-size: 15px;
+}
+
+.nav-btn button:hover{
+    background-color: #FF7B4E;
+    border-radius: 60px;
+
+}
+
+.nav-item:hover{
+    color: blue;
+    font-weight: 600;
+}
+
+
+.home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #428E5F;
+    width: 100%;
+    /* margin: 20px; */
+}
+
+.home-left{
+    margin-left: 70px ;
+}
+
+.home-left p{
+    border: solid 0.5px #FFFFFF40;
+    border-radius: 15px;
+    padding: 10px 0px;
+    text-align: center;
+    font-size: 18px;
+    margin: 20px 0px    ;
+}
+
+.home-left h1{
+    font-size: 55px;
+    width: 550px;
+    margin: 20px 0px;
+}
+
+.home-right img{
+    width: 90%;
+
+}
+
+.home-left h5{
+    font-size: 25px;
+    margin: 20px 0px;
+}
+
+.home-left button{
+    width: 263px;
+    height: 91px;
+    border: none;
+    background-color: #679278;
+    border-radius: 27px;
+    font-size: 25px;
+}
+
+.home-left button:hover{
+    background-color: #FF7B4E;
+    color: white;
+}
+
+.Destinations{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 90px 0px;
+    gap: 40px;
+}
+
+.Destinations-left p{
+font-size: 30px;
+font-weight: 600;
+padding: 10px 0px;
+}
+
+.Destinations-left h1{
+    font-size: 55px;
+    font-weight: 600;
+
+}
+
+.Destinations-left h5{
+    font-size: 25px;
+    width: 456px;
+    padding: 10px 0px;
+    font-weight: 500;
+}
+
+.Destinations-left button{
+    width: 223px;
+    height: 79px;
+    border: none;
+    border-radius: 27px;
+    background-color: #679278;
+    font-size: 20px;
+}
+
+.Destinations-left button:hover{
+    background-color: #FF7B4E;
+    color: white;
+}
+
+.Destinations-right img{
+    margin: 0px 20px;
+}
+
+
+.customers{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 150px;
+    margin-top: 200px;
+}
+
+.customers-right h1{
+font-size: 45px;
+width: 565px;
+margin: 20px 0px;
+}
+
+.customers-right p{
+    font-size: 33px;
+    color: #0F1F1C;
+    margin-bottom: 20px;
+}
+
+.customers-right h3{
+    font-size: 25px;
+    line-height: 37.5px;
+    font-weight: 400;
+    color: #0F1F1C;
+
+}
+
+.customers-right h4{
+    font-size: 22px;
+    width: 491px;
+    margin: 20px 0px;
+    line-height: 33px;
+}
+
+.Prepare{
+    background-color: #F6F6F6;
+    width: 1240px;
+    height: 181px;
+    border: none;
+    border-radius: 60px;
+    margin: 160px auto ;
+    text-align: center;
+    padding: 200px 0px;
+   
+}
+
+.Prepare h1{
+width: 519px;
+font-size: 45px;
+margin: 0 auto;
+padding: 20px 0px;
+}
+
+.Prepare p{
+    color: #0F1F1C;
+    font-size: 30px;
+    padding-bottom:20px ;
+}
+
+.Prepare-btn button{
+    width: 225px;
+    height: 79px;
+    background-color: #77a199;
+    color:white;
+    border: none;
+    border-radius: 60px;
+    font-size: 20px;
+}
+
+.Prepare-btn button:hover{
+    background-color: #FF7B4E;
+
+}
+
+
+.Newsletter h1{
+width: 494px;
+height: 166px;
+font-size: 55px;
+font-weight: 600;
+margin: 0 auto;
+padding: 20px 0px;
+}
+
+.Newsletter-link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+    margin: 0 auto;
+    padding: 10px 70px;
+    border: solid 0.1px;
+    width: 600px;
+    height: 89px;
+    border: none;
+    background: hsl(207, 46%, 74%);
+    border-radius: 35px;
+    
+}
+
+.Newsletter-link a{
+    color: #0F1F1C;
+    font-size: 24px;
+}
+
+.Newsletter-link button{
+    width: 200px;
+    height: 85px;
+    border: none;
+    border-radius: 35px;  
+    font-size: 25px;
+    color: #0F1F1C; 
+
+}
+
+.Newsletter-btn:hover{
+    background: #FF7B4E;
+}
+
+
+.footer-navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+
+.footer-logo {
+color: #FF7B4E;
+font-size: 20px;
+font-weight: 700;
+}
+
+.footer-list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* padding-top: 70px; */
+    /* padding-bottom: 20px; */
+}
+
+.footer-item{
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 30px;
+} 
+
+.footer-btn{
+    /* padding: 0px 10px; */
+    border: none;
+    width: 128px;
+    height: 49px;
+    background-color:#FF7B4E ;
+    color: white;
+    font-size: 15px;
+    border: none;
+    border-radius: 35px;
+}
+
+.footer-item:hover{
+    color: blue;
+    font-weight: 600;
+}
+
